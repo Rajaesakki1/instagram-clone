@@ -1,0 +1,104 @@
+
+{ 
+  "posts": [
+    {
+      "id": "jennie_post1",
+      "user": {
+        "id": "bp1",
+        "username": "jennie",
+        "fullName": "Jennie Kim",
+        "avatar": "/assets/jennieprofile.jpeg",
+        "bio": "Main rapper & vocalist | BLACKPINK 💖"
+      },
+      "imageUrl": "/assets/jeeniep2.webp",
+      "caption": "Shooting day 🎬💋 #blackpink",
+      "likes": "4.3M",
+      "timestamp": "2025-07-02T15:45:00Z",
+      "comments": [
+        { "username": "pink_venom", "text": "Queen Jennie 🔥🔥🔥" },
+        { "username": "blink_love", "text": "I love this outfit!" },
+        { "username": "roses_are_rosie", "text": "Visual perfection 😍" }
+      ]
+    },
+     
+    
+    {
+      "id": "lisa_post1",
+      "user": {
+        "id": "bp2",
+        "username": "lisa",
+        "fullName": "Lalisa Manoban",
+        "avatar": "/assets/lisapp1.jpeg",
+        "bio": "Dancer, rapper, cat mom 🐱 | BLACKPINK 💛"
+      },
+      "imageUrl": "/assets/lisap3.jpg",
+      "caption": "Dance rehearsal all day 💃 #LILIFILM",
+      "likes": "5M",
+      "timestamp": "2025-07-01T13:20:00Z",
+      "comments": [
+        { "username": "pink_venom", "text": "LALISA in her element 🔥" },
+        { "username": "kpop_dreams", "text": "Energy unmatched!" },
+        { "username": "rosie_luv", "text": "Get it Lisa!!!" }
+      ]
+    },
+    {
+      "id": "rose_post1",
+      "user": {
+        "id": "bp3",
+        "username": "rose",
+        "fullName": "Roseanne Park",
+        "avatar": "/assets/rosepp1.jpeg",
+        "bio": "Singer-songwriter 🎸 | BLACKPINK 🌹"
+      },
+      "imageUrl": "/assets/rose.jpg",
+      "caption": " 🌙🎶",
+      "likes": "4M",
+      "timestamp": "2025-07-03T00:15:00Z",
+      "comments": [
+        { "username": "pink_venom", "text": "Angel voice 💖" },
+        { "username": "guitar_soul", "text": "Sing to me, Rose!" },
+        { "username": "blink_4ever", "text": "This calms my soul 😭" }
+      ]
+    },
+     {
+      "id": "rose_post2",
+      "user": {
+        "id": "bp3",
+        "username": "rose",
+        "fullName": "Roseanne Park",
+        "avatar": "/assets/rosepp1.jpeg",
+        "bio": "Singer-songwriter 🎸 | BLACKPINK 🌹"
+      },
+      "imageUrl": "/assets/rosep3.webp",
+      "caption": " with my girls",
+      "likes": "8.3M",
+      "timestamp": "2025-07-03T00:15:00Z",
+      "comments": [
+          { "username": "pink_venom", "text": "blackpinkuu✨" },
+        { "username": "blink_heart", "text": "M🖤" },
+        {"username":"jennie","text":" 💖"}
+       
+      ]
+    },
+   
+    {
+      "id": "jisoo_post1",
+      "user": {
+        "id": "bp4",
+        "username": "jisoo",
+        "fullName": "Kim Jisoo",
+        "avatar": "/assets/jisoop1.jpeg",
+        "bio": "Visual queen 👑 | BLACKPINK 🖤"
+      },
+      "imageUrl": "/assets/jisoopp2.jpg",
+      "caption": "📸🌸 #JisooVisual",
+      "likes": "5.2",
+      "timestamp": "2025-06-29T09:00:00Z",
+      "comments": [
+        { "username": "pink_venom", "text": "Unreal beauty ✨" },
+        { "username": "blink_heart", "text": "My bias 🖤" },
+        { "username": "fashion_lover", "text": "What brand is this outfit?" }
+      ]
+    }
+  ]
+}

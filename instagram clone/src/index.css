@@ -15,3 +15,29 @@
 .bi{
   margin-right: 10px;
 }
+.story{
+  height: 100px;
+}
+.dp{
+  height: 30px;
+  width: 35px;
+  margin-top: 2px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  
+}
+.pos{
+  width: 350px;
+}
+.mmain{
+  border: 5px solid whitesmoke;
+  
+  margin: 10px;
+  padding: 2px;
+}
+.singlebox{
+    border: 5px solid whitesmoke;
+  
+  margin: 10px;
+  padding: 20px;
+}
