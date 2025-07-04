@@ -5,7 +5,7 @@
       "id": "jennie_post1",
       "user": {
         "id": "bp1",
-        "username": "jennie",
+        "username": "jennierubyjane",
         "fullName": "Jennie Kim",
         "avatar": "/assets/jennieprofile.jpeg",
         "bio": "Main rapper & vocalist | BLACKPINK 💖"
@@ -26,7 +26,7 @@
       "id": "lisa_post1",
       "user": {
         "id": "bp2",
-        "username": "lisa",
+        "username": "lalalalisa_m",
         "fullName": "Lalisa Manoban",
         "avatar": "/assets/lisapp1.jpeg",
         "bio": "Dancer, rapper, cat mom 🐱 | BLACKPINK 💛"
@@ -45,7 +45,7 @@
       "id": "rose_post1",
       "user": {
         "id": "bp3",
-        "username": "rose",
+        "username": "roses_are_rosie",
         "fullName": "Roseanne Park",
         "avatar": "/assets/rosepp1.jpeg",
         "bio": "Singer-songwriter 🎸 | BLACKPINK 🌹"
@@ -64,7 +64,7 @@
       "id": "rose_post2",
       "user": {
         "id": "bp3",
-        "username": "rose",
+        "username": "roses_are_rosie",
         "fullName": "Roseanne Park",
         "avatar": "/assets/rosepp1.jpeg",
         "bio": "Singer-songwriter 🎸 | BLACKPINK 🌹"
@@ -76,7 +76,7 @@
       "comments": [
           { "username": "pink_venom", "text": "blackpinkuu✨" },
         { "username": "blink_heart", "text": "M🖤" },
-        {"username":"jennie","text":" 💖"}
+        {"username":"jennierubyjane","text":" 💖"}
        
       ]
     },
@@ -85,7 +85,7 @@
       "id": "jisoo_post1",
       "user": {
         "id": "bp4",
-        "username": "jisoo",
+        "username": "sooyaaa__",
         "fullName": "Kim Jisoo",
         "avatar": "/assets/jisoop1.jpeg",
         "bio": "Visual queen 👑 | BLACKPINK 🖤"
@@ -100,5 +100,67 @@
         { "username": "fashion_lover", "text": "What brand is this outfit?" }
       ]
     }
-  ]
+  ],
+  "profile":{
+    
+        "id": "bp1",
+        "username": "Gummy Bear",
+        "fullName": "Jennie Kim",
+        "avatar": "/assets/myprofile.jpg",
+        "bio": " BLACKPINK 💖"
+      },
+
+  
+  "suggestion":[
+    
+     {
+     
+        "id": "bp6",
+        "username":"fluffydreams_",
+       "fullName":"~pavi💖~",
+        "avatar": "/assets/paviprofile.jpg",
+        "bio": "-Not all storms are come to disrupt your life,Some are come to clear your path"
+      },
+    
+    {
+      
+        "id": "bp7",
+        "username": "matchalatte._",
+        "fullName": "ramya",
+        "avatar": "/assets/ramsprofile.jpg",
+        "bio": "രമ്യ>>--🌷  every thing waiting has a ωσятн😌!!  -🤍🧿"
+      
+    },
+     {
+      
+        "id": "bp8",
+        "username": "peachy.fizz",
+        "fullName": " ",
+        "avatar": "/assets/shajiprofile.jpg",
+        "bio": " 💖"
+      
+    },
+     {
+      
+        "id": "bp9",
+        "username": "netflix_in",
+        "fullName": "netflix",
+        "avatar": "/assets/netflixprofile.jpg",
+        "bio": "lets process squid game 222gether"
+      
+    },
+     {
+      
+        "id": "bp10",
+        "username": "vampirehollie",
+        "fullName": "rosie",
+        "avatar": "/assets/rose2profile.jpg",
+        "bio": "will you be my number once💖"
+      
+    }
+    
+    
+
+      ]
 }
+

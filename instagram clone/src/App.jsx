@@ -15,5 +15,4 @@ function App() {
 }
 /* w-25 w-50 w-75 w-100*/
 //json-server --watch db.json --port 3000
-
 export default App

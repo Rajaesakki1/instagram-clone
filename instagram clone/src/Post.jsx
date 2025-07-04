@@ -18,7 +18,7 @@ function Post() {
             <div className=' singlebox my-3' key={post.id}>
               <div className='d-flex'>
                 <img className ="dp rounded-circle "src={post.user.avatar} alt={post.user.username} />
-                <h5>{post.user.username}</h5>
+                <h5>{post.user.username}<i className="bi bi-patch-check-fill  text-primary align-middle ms-1"></i></h5>
               </div>
               <img className='pos' src={post.imageUrl} alt=""/>
               <div>

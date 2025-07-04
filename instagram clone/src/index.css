@@ -27,7 +27,8 @@
   
 }
 .pos{
-  width: 350px;
+  width: 500px;
+  height: 600px;
 }
 .mmain{
   border: 5px solid whitesmoke;
@@ -40,4 +41,18 @@
   
   margin: 10px;
   padding: 20px;
+}
+.suggestion h5{
+  width: 60%;
+  font-size: 16px;
+}
+.suggestion .dp{
+  margin-top: 5px !important;
+  margin-bottom: 15px;
+}
+.suggestion small{
+  margin-left: 5px;
+}
+.d{
+   margin-left: 130px;
 }

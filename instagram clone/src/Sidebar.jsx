@@ -1,11 +1,11 @@
 import React from 'react';
-import textinsta from '/assets/textinsta.jpg'
+import download from '/assets/download.png'
 
 function Sidebar() {
   return (
     <div className='m-3 position-fixed'> 
     <div className='d-flex flex-column gap-3'>
-        <img className="logo-text"src= {textinsta}alt='Instagram text logo' style={{backgroundColor:'red'}}/>
+        <img className="logo-text"src= {download}alt='Instagram text logo' style={{backgroundColor:'red'}}/>
         <div><i className="bi bi-house-door-fill"></i>Home</div>
         <div><i className="bi bi-search"></i>Search</div>
         <div><i className="bi bi-compass"></i>Explore</div>
