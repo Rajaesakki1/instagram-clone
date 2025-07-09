@@ -1,7 +1,11 @@
 import React from 'react';
 import download from '/assets/download.png'
+import { useNavigate } from 'react-router-dom'
+
 
 function Sidebar() {
+  const navigate = useNavigate();
+  
   return (
     <div className='m-3 position-fixed'> 
     <div className='d-flex flex-column gap-3'>
@@ -14,7 +18,7 @@ function Sidebar() {
         <div><i className="bi bi-heart"></i>Notifications</div>
         <div><i className="bi bi-bookmark-plus"></i>Create</div>
         <div><i className="bi bi-clipboard2-data"></i>Dashboard</div>
-        <div><i className="bi bi-person-circle"></i>Profile</div>
+        <div on onClick={() => {navigate ('/profile')}}><i className="bi bi-person-circle"></i>Profile</div>
 
         <div><i className="bi bi-circle"></i>Meta AI</div>
         <div><i className="bi bi-ui-radios-grid"></i>AI Studio</div>

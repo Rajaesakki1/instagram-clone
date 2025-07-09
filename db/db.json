@@ -101,15 +101,7 @@
       ]
     }
   ],
-  "profile":{
-    
-        "id": "bp1",
-        "username": "Gummy Bear",
-        "fullName": "Jennie Kim",
-        "avatar": "/assets/myprofile.jpg",
-        "bio": " BLACKPINK 💖"
-      },
-
+ 
   
   "suggestion":[
     
@@ -158,9 +150,80 @@
         "bio": "will you be my number once💖"
       
     }
+  ],
+   "story":[
+      {
+      "id": 1,
+      "user": {
+        "id": "bp3",
+        "username": "roses_are_rosie",
+        "fullName": "Roseanne Park",
+        "avatar": "/assets/rosedp.jpg",
+        "bio": "Singer-songwriter 🎸 | BLACKPINK 🌹"
+      },
+      "imageUrl": "/assets/rosestory.jpg"
+     
+    },
+      
+    {
+      "id": 2,
+      "user": {
+        "id": "bp4",
+        "username": "sooyaaa__",
+        "fullName": "Kim Jisoo",
+        "avatar": "/assets/jisoodp.jpg ",
+        "bio": "Visual queen 👑 | BLACKPINK 🖤"
+      },
+      "imageUrl": "/assets/jisoostory.jpg"
+      
+    },
+    {
+      "id": 3,
+      "user": {
+        "id": "bp1",
+        "username": "jennierubyjane",
+        "fullName": "Jennie Kim",
+        "avatar": "/assets/jenniedp.jpg",
+        "bio": "Main rapper & vocalist | BLACKPINK 💖"
+
+      },
+      "imageUrl": "/assets/jenniestory.jpg"
+      
+    },
+     
+    
+    {
+      "id": 4,
+      "user": {
+        "id": "bp2",
+        "username": "lalalalisa_m",
+        "fullName": "Lalisa Manoban",
+        "avatar": "/assets/lisadp.jpg",
+        "bio": "Dancer, rapper, cat mom 🐱 | BLACKPINK 💛"
+      },
+      "imageUrl": "/assets/lisastory.jpg"
+      
+    }
+  
+  
+     
+    ],
+     "profile":{
+    
+        "id": "bp1",
+        "username": "Gummy Bear",
+        "post":0,
+        "followers":120,
+        "following":135,
+        "fullName": "Jennie Kim",
+        "avatar": "/assets/myprofile.jpg",
+        "bio": " BLACKPINK 💖"
+      }
+
+
     
     
 
-      ]
+      
 }
 
