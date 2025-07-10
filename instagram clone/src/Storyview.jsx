@@ -1,6 +1,7 @@
 import { useParams ,Link, useNavigate } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
 
+
 function Storyview() {
   const { id ,tot} = useParams();
   const [storyy, setstoryy] = useState(null);

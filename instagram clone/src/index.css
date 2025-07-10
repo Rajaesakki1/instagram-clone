@@ -96,3 +96,11 @@
   border-radius: 4px;
   cursor: pointer;
 }
+.profilebottom{
+  align-items: center;
+  width:45px;
+  height:45px;
+}
+.likes{
+  margin-right: 100px;
+}

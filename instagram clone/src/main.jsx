@@ -5,6 +5,7 @@ import App from './App.jsx'
 import {createBrowserRouter,RouterProvider} from 'react-router-dom'
 import Storyview from './Storyview.jsx'
 import Profile from './Profile.jsx'
+import Profileandnav from './Profileandnav.jsx'
 const router = createBrowserRouter(
  [
   {
@@ -16,9 +17,15 @@ const router = createBrowserRouter(
     
   },
   {
-    path:'/profile',
+    path:'/profile/:username',
     element:<Profile/>
+  },
+  {
+    path:'/profileandnav/:username',
+    element:<Profileandnav/>
   }
+  
+  
 
  ] 
 )

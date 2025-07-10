@@ -15,7 +15,7 @@ function Profile() {
   }, []);
 
   return (
-    <div className='m-5'>
+    <div className='m-5 w-50 pprofile'>
       {profile ? (
         <>
         <div className='d-flex '>
@@ -32,7 +32,7 @@ function Profile() {
 
 
         </div>
-          <div className="d-flex gap-4 mt-2">
+          <div className=" likes d-flex gap-4 mt-2">
         <div><strong>0</strong> Posts</div>
         <div><strong>120</strong> Followers</div>
         <div><strong>135</strong> Following</div>
@@ -48,6 +48,32 @@ function Profile() {
             <div>Saved</div>
             <div>Tagged</div>
           </div>
+          <div className=' d-flex flex-column gap-3 dd d-flex justify-content-center align-items-center '>
+        <div 
+  style={{
+    width: '555px',
+    height: '200px',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+   
+  }}
+  className='profile bottom'
+>
+  <i
+    className="bi bi-camera fs-1"
+    style={{
+      fontSize: '18px',
+      lineHeight: '1',
+    }}
+  ></i>
+</div>
+<div  className=' d-flex flex-column gap-3 dd d-flex justify-content-center align-items-center '>
+<b>Share Photos</b>
+<p>When you share photos, they will appear on your profile.</p>
+</div>
+
+  </div>
        
       </div>
         </>
