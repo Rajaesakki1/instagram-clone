@@ -24,7 +24,7 @@ function Story() {
     }}
   >
     <div className='gradient-border'>
-      <img src={Story.user.avatar} alt="dp" className='story-dp rounded-circle' />
+      <img  src={Story.user.avatar} alt="dp" className='story-dp rounded-circle' />
     </div>
     <small className='text-truncate' style={{ width: "50px" }}>
       {Story.user.username}

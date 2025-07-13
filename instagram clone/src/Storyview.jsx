@@ -23,11 +23,20 @@ function Storyview() {
       
       (
         
-        <div className='d-flex justify-content-center align-items-center'>
-            <Link to={`http://localhost:5173/story/${Number(id)-1}/${tot}`}><i className="bi bi-arrow-right-circle"></i></Link>
+        <div className='d-flex justify-content-center align-items-center '>
+            <Link to={`http://localhost:5177/story/${Number(id)-1}/${tot}`}><i className="bi bi-arrow-right-circle"></i></Link>
         
-          <img className='vh-100 justify-content-center' src={storyy.imageUrl} alt="story"/>
-           <Link to={`http://localhost:5173/story/${Number(id)+1}/${tot}`}><i className="bi bi-arrow-left-circle"></i></Link></div>
+          <img  style={{
+      width: '500px',        
+      height: '100vh',       
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      overflow: 'hidden',
+      backgroundColor: '#f0f0f0',
+    }}
+  className='mx-3' src={storyy.imageUrl} alt="story"/>
+           <Link to={`http://localhost:5177/story/${Number(id)+1}/${tot}`}><i className="bi bi-arrow-left-circle"></i></Link></div>
       ) : (
         <div>Loading...</div>
       )}
